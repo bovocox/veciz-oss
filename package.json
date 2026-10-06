@@ -1,0 +1,16 @@
+{
+  "name": "veciz-oss",
+  "version": "0.1.0",
+  "description": "Building blocks from Veciz AI: a provider-chain YouTube transcript fetcher (Supadata → ScrapeCreators) and Turkish-safe uppercasing for UI labels.",
+  "type": "module",
+  "main": "src/index.ts",
+  "exports": { ".": "./src/index.ts" },
+  "files": ["src"],
+  "scripts": {
+    "test": "node --test test/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": { "node": ">=22.18" },
+  "keywords": ["youtube", "transcript", "captions", "supadata", "scrapecreators", "turkish", "uppercase", "react-native"],
+  "license": "MIT"
+}
